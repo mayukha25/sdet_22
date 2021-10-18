@@ -27,6 +27,7 @@ public class PrintLaptopPrice {
 
 			String price = pricelist.get(i).getText();
 			System.out.println(price);
+			System.out.println("bye");
 		}
 		driver.close();
 
